@@ -56,7 +56,8 @@ class ServiceController extends Controller
     }
 
     public function serviceDetailBind(Product $routbindid){
-            return $routbindid;
+            return $routbindid."i am adding";
+
     }
 
     public function getallSerive(){
